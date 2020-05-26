@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 668px;
+}
+
+.overlay > img, .h-text {
+    position: relative;
+    top: 33%;
+}
+.h-text{
+    font-family: 'Comfortaa', cursive;
+}
+.smaller-text{
+    font-family: 'Ubuntu Mono', monospace;
+}
+.overlay > img, .welcome {
+    margin-bottom: 30px;
+}
+
+.click {
+    margin-top: 330px;
+}
+
+.jumbotron-fluid {
+    background-image: url("./assets/h_img.jpg");
+    background-size: cover;
+    height: 668px;
+}
+#bounce {
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-55px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
+}
+
+.about {
+    height: 250px;
+}
+
+.about h1 {
+    margin-top: 30px;
+}
+
+.services {
+    background-image: url("./assets/s_image.jpg");
+    height: 280px;
+}
+
+.services h1 {
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+.small-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 280px;
+}
+
+
+.what-we-do h1 {
+    margin-top: 30px;
+}
+figcaption{
+    margin-top: 20px;
+}
+
+.portfolio {
+    /*height: 650px;*/
+    padding-bottom: 50px;
+}
+
+.contacts {
+    background-image: url("imgs/c_image.jpg");
+    background-size: cover;
+}
+
+.contacts h1 {
+    position: relative;
+    top: 30px;
+}
+.text{
+    margin-bottom: 20px;
+}
+
+.contact-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form-control{
+    background-color: #66000000;
+    color: white;
+}
+.input{
+    margin-top: 30px;
+}
+.b-text{
+    font-family: 'Comfortaa', cursive;
+}
+.m-text{
+    font-family: 'Raleway', sans-serif;
+}
+.name{
+    margin-right: 5px;
+}
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+.email{
+    margin-right: 5px;
+}
+.social{
+    justify-content:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+.white{
+    height: 300px;
+    width: 366px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.porting {
+    float: right;
+    position: relative;
+    margin: 5px;
+    /*color: #333;*/
+}
+.porting .porttext {
+    display: none;
+    opacity: 1;
+    background-color:rgba(255, 255, 255, 0.6);
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    height: 100%;
+}
+textarea::placeholder{
+    color: #ffffff;
+}
+section{
+    padding: 80px;
+}
+.heros-page{
+  background: url("./assets/h_img.jpg") rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+  font-family: sans-serif;
+  text-align:center;
+  background-size: cover;
+  padding-top:200px;
+}
+.heros-page h1{
+    padding: 10px;
+
+}
+.heros-page img{
+    padding: 20px;
+}
+.heros-page p{
+    padding: 20px;
+    font-size: 12px;
+
+}
+.about-us{
+    text-align: center;
+}
+.services{
+  text-align: center;
+  background: url("assets/backgrounds/s_image.jpg") rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+  font-family: sans-serif;
+  text-align:center;
+  background-size: cover;
+  padding-top:200px;
+}
+
+#what-we-do h1{
+    text-align: center;
+
+}
+.items > div{
+    padding-top: 20px;
+}
+ .items{
+     display: flex;
+     justify-content: space-evenly;
+ }
+.item1{
+    text-align: center;
+    width: 20%;
+}
+.item2{
+    text-align: center;
+    width: 20%;
+
+}
+.item3{
+    text-align: center;
+    width: 20%;
+
+}
+.portfolio h1{text-align: center;
+ }
+
+.the_portfolio{
+    width: 100%;
+    height: auto;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.port{
+    height:200px;
+    width: 40%;
+    margin: 30px;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.port:hover{background-size:110%;
+}
+
+.port:after{
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0 8px;
+    opacity: 0%;
+    transition: 0.5s;
+    white-space: pre-wrap;
+    text-align: center;
+}
+.port:hover:after{
+    opacity: 1;
+    top:0;
+    padding: 8px;
+}
+.port:first-line{
+    color:white;
+    font-weight: bolder;
+    font-size:1.cm;
+    text-align: center;
+
+}
+
+.contacts-section{
+  background: url("assets/backgrounds/c_image.jpg") rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+  font-family: sans-serif;
+  text-align:center;
+  background-size: cover;
+  padding-top:200px;
+}
+.col-md-6 input{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    resize: none;
+    opacity: 20%;
+    color: white;
+    background-color: black;
+
+}
+.md-form textarea{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    resize: none;
+    opacity: 20%;
+    background-color: black;
+    color: white;
+
+}
+.the-footer{
+    padding-top:250px;
+    width: 100%;
+    text-align: center ;
+    color: black;
+
+}
+.send-message{
+    padding: 40px;
+    opacity: 20%;
+
+}
+#paragraph1{
+    display: none;
+}
+#paragraph2{
+    display: none;
+}
+#paragraph3{
+    display: none;
+}
