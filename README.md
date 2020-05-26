@@ -6,4 +6,4 @@ Delani studio, demo studio site
 #### Instructions
 This is a website. Copy the URL and paste it in your browser or click on the link below.
 #### Link to live site
-[Delani studio](https://LeonDante-ctrl.github.io/del/)
+[Delani studio](https://LeonDante-ctrl.github.io/del-FINAL/)
