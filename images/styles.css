@@ -4,7 +4,7 @@ html{
 }
 
 .p1 {
-    background-image: url(../images/background/bg1.jpg);
+    background-image: url(images/background/bg1.jpg);
     background-position: center;
     background-size: cover;
     color: white;
